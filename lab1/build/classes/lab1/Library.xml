@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "LibraryDTD.dtd">
+<!--if dtd is internal-->
+<!--<!DOCTYPE library [
+<!ELEMENT library (book+)>
+<!ELEMENT book (title, author, year, publisher)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT publisher (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST book id ID #REQUIRED>
+<!ATTLIST publisher bookID IDREF #REQUIRED>
+]>--> 
+<library>
+        <book id="01">
+                <author>mostafa</author>
+                <title>ma legs</title>
+                <genre>Computer</genre>
+                <price>44.95</price>
+                <publish_date>1997-07-01</publish_date>
+                <description>lets play </description>
+        </book>
+        <book id="02">
+                 <author>ahmed&amp;&amp;mostafa</author>
+                <title>hagy wagy</title>
+                <genre>Computer</genre>
+                <price>44.95</price>
+                <publish_date>1997-07-01</publish_date>
+                <description>lets play</description>
+        </book>
+        <book id="03">
+                <author>mostafa</author>
+                <title>box boo</title>
+                <genre>Computer</genre>
+                <price>44.95 &gt; 50</price>
+                <publish_date>1997-07-01</publish_date>
+                <description>An &quot;in-depth&quot; look at creating applications with XML.</description>
+        </book>
+        <book id="04">
+                <author>mostafa</author>
+                <title>تراب الماس</title>
+                <genre>رعب</genre>
+                <price>25</price>
+                <publish_date>1997-07-01</publish_date>
+                <description>حبة بودرة جماجم قلبة الدنيا خالص </description>
+        </book>
+</library>
+
